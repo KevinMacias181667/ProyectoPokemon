@@ -2,9 +2,31 @@
   text-align: center;
 }
 
-.App-logo {
+.flex-container{
+  display: flex;
+  flex-direction: row;
+}
+.poke-image{
   height: 40vmin;
   pointer-events: none;
+}
+
+.button{
+  margin: 5px;
+  cursor: pointer;
+  width: 15vw;
+  height: 5vh;
+  background-color: cadetblue;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.Buscar input{
+  margin: 8px;
+  width: 14vw;
+  height: 5vh;
+  background-color:antiquewhite;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +36,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("https://images.alphacoders.com/103/thumb-1920-1039414.png");
+  background-size: cover;
+  background-repeat: none;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
